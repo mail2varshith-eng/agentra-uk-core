@@ -1,43 +1,111 @@
-# Agentra.ai Core – Autonomous AI Agent MVP
+Agentra.uk — Autonomous AI Agent MVP (v0.1)
 
-Agentra.ai Core is an early prototype of an autonomous AI agent system that can:
+An Era of AI Agents.
 
-- Understand a user goal  
-- Break it into steps (task decomposition)  
-- Execute simple actions  
-- Summarise results  
-- Log its reasoning  
+Agentra.uk is an early prototype of an autonomous AI agent system designed to perform real digital work — not just generate responses.
 
-This MVP demonstrates the core concept behind Agentra.ai:
+This MVP demonstrates the foundation of what Agentra.uk is building:
+AI that works, not just talks.
 
-> **AI that works, not just talks.**
+🚀 What the Agentra.uk MVP Can Do
 
----
+The v0.1 prototype includes:
 
-## 🚀 Features (MVP 0.1)
+✔ Understand a user goal
 
-- Goal → Tasks → Execution pipeline  
-- Simple rule-based task decomposition  
-- Mock “tools” (fake web search & summariser)  
-- Reasoning logs stored as JSON  
-- Example script to run the agent from the command line  
+✔ Break it into smaller steps (task decomposition)
 
----
+✔ Execute basic actions using mock “tools”
 
-## 📂 Folder Structure
+✔ Summarise outputs
 
-```text
+✔ Log all reasoning steps
+
+This is the first step toward autonomous digital workers built for productivity and workflow automation.
+
+🧩 Features (MVP 0.1)
+
+Goal → Tasks → Execution pipeline
+
+Simple rule-based task planner
+
+Mock tools:
+
+Fake web search
+
+Simple text summariser
+
+Execution reasoning logged as JSON
+
+Example script to run the agent locally
+
+Clean and scalable project structure
+
+📂 Folder Structure
 agentra-uk-core/
-  agent_core/
-    agent.py
-    planner.py
-  tools/
-    web_search.py
-    text_summarizer.py
-  examples/
-    run_agent.py
-  logs/
-    (auto-created log files)
-  docs/
-    architecture.md
-    roadmap.md
+│
+├── agent_core/
+│   ├── agent.py
+│   └── planner.py
+│
+├── tools/
+│   ├── web_search.py
+│   └── text_summarizer.py
+│
+├── examples/
+│   └── run_agent.py
+│
+├── logs/
+│   └── readme.md
+│
+└── docs/
+    ├── architecture.md
+    └── roadmap.md
+
+🧠 How It Works
+
+User enters a goal
+
+The Planner breaks it down into tasks
+
+The Agent selects the right tool
+
+Each task is executed
+
+Results are summarised
+
+All steps & reasoning saved in /logs
+
+This demonstrates the core idea behind Agentra.uk — autonomous AI doing real work.
+
+🔮 Roadmap
+
+See the full roadmap in /docs/roadmap.md, including:
+
+v0.2 — Real web search, more tools
+
+v0.3 — Multi-agent collaboration
+
+v1.0 — Web dashboard
+
+v2.0 — Long-term memory
+
+v3.0 — Agent ecosystem
+
+🏗️ Run the MVP Locally (Optional)
+git clone https://github.com/mail2varshith-eng/agentra-uk-core.git
+cd agentra-uk-core
+python examples/run_agent.py
+
+
+Enter a goal and watch the agent break it down automatically.
+
+🏆 About Agentra.uk
+
+Agentra.uk is building autonomous AI agents that behave like a digital workforce — researchers, writers, organisers, and analysts working together to execute tasks end-to-end.
+
+This MVP is the first step toward that future.
+
+📄 License
+
+MIT License
