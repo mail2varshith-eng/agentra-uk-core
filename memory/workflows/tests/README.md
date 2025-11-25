@@ -20,3 +20,4 @@ This version includes:
 - Tests for tool integrations (email, calendar, API fetcher)
 - Workflow execution tests
 - Memory persistence tests
+- v0.2 — IN PROGRESS: memory layer, workflows module, new tools, and tests
