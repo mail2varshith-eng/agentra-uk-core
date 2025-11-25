@@ -80,17 +80,24 @@ This demonstrates the core idea behind Agentra.uk — autonomous AI doing real w
 
 🔮 Roadmap
 
-See the full roadmap in /docs/roadmap.md, including:
+## Roadmap
 
-v0.2 — Real web search, more tools
+- **v0.1 – MVP (DONE):**
+  - Single autonomous agent
+  - Goal understanding, task decomposition
+  - Mock tools (search + summariser)
+  - Logging and basic architecture
 
-v0.3 — Multi-agent collaboration
+- **v0.2 – Architecture Upgrade (IN PROGRESS):**
+  - `memory/` module – short-term memory engine
+  - `workflows/` module – workflow manager scaffold
+  - `tests/` module – testing structure and placeholder tests
+  - `docs/v0.2.md` – detailed development roadmap
 
-v1.0 — Web dashboard
-
-v2.0 — Long-term memory
-
-v3.0 — Agent ecosystem
+- **v0.3+ – Planned:**
+  - Real tool integrations (email, calendar, APIs)
+  - Stronger planning and reasoning
+  - Multi-agent collaboration and dashboard
 
 🏗️ Run the MVP Locally (Optional)
 git clone https://github.com/mail2varshith-eng/agentra-uk-core.git
