@@ -113,6 +113,22 @@ Agentra.uk is building autonomous AI agents that behave like a digital workforce
 
 This MVP is the first step toward that future.
 
+📘 Technical Articles & Deep Dives
+
+I actively document the technical evolution of Agentra.uk through Medium engineering articles:
+
+1. From Chatbots to Agents — The Technical Evolution of Agentra.uk v0.2
+
+Deep dive into workflow reasoning, tool integrations, API fetcher, memory engine, and autonomous execution.
+🔗 https://medium.com/@mail2varshith/from-chatbots-to-agents-the-technical-evolution-of-agentra-uk-v0-2-97a474fd7ddc
+
+2. Why the Future Belongs to Autonomous AI Agents — And Why I’m Building Agentra.uk
+
+(v0.1 Vision Article)
+🔗 https://medium.com/@mail2varshith/why-the-future-belongs-to-autonomous-ai-agents-and-why-im-building-agentra-ai-d4e87e1148df
+
+More deep-dives, architecture analyses, and release notes coming soon.
+
 📄 License
 
 MIT License
